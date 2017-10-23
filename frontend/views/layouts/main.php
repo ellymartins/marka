@@ -77,8 +77,14 @@ AppAsset::register($this);
     </div>
 </div>
 
-
 <?php $this->endBody() ?>
 </body>
+
+    <div class="footer">
+
+        MARKA | 2017 | Todos Direitos Reservados
+
+    </div>
+     
 </html>
 <?php $this->endPage() ?>
