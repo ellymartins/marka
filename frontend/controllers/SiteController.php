@@ -75,6 +75,85 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+
+
+     /**
+     * pagina orgaos - Assembleia.
+     *
+     * @return mixed
+     */
+    public function actionAssembleia()
+    {
+        return $this->render('assembleia');
+    }
+
+
+ /**
+     * pagina orgaos - Direccao.
+     *
+     * @return mixed
+     */
+    public function actionDireccao()
+    {
+        return $this->render('direccao');
+    }
+
+ /**
+     * pagina orgaos - Conselho Fiscal.
+     *
+     * @return mixed
+     */
+    public function actionConselho()
+    {
+        return $this->render('conselho');
+    }
+
+
+ /**
+     * pagina Actividades - Actividades Recentes.
+     *
+     * @return mixed
+     */
+    public function actionActividades()
+    {
+        return $this->render('actividades');
+    }
+
+ /**
+     * pagina Actividades - btn Ver mais - pag 2.
+     *
+     * @return mixed
+     */
+    public function actionAct_2()
+    {
+        return $this->render('act_2');
+    }
+
+
+/**
+     * pagina Actividades - btn Ver mais - pag 23.
+     *
+     * @return mixed
+     */
+    public function actionAct_3()
+    {
+        return $this->render('act_3');
+    }
+
+
+
+/**
+     * pagina Actividades - btn Ver mais da pagina 1 - vai para pag noticia.
+     *
+     * @return mixed
+     */
+    public function actionVm_1()
+    {
+        return $this->render('vm_1');
+    }
+
+
+
     /**
      * Logs in a user.
      *

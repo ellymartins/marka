@@ -1,33 +1,572 @@
 html,
 body {
-    height: 100%;
+
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    color:rgba(12, 12, 12, 0.8);
+
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+
+.wrap{
+    /* background: blue;*/ 
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 20px;
+  width: 85%;
+
+}
+
+
+.breadcrumb{
+    background-color: #e3e3e4;
+    height: 40px;
+
+
+  }
+
+.breadcrumb-item ,a{
+    color: #2f3192;
+   
+
+}
+
+.breadcrumb-item ,li{
+    color: rgba(102, 101, 101, 0.9);
+
+   
+
+}
+
+
+/* SECCAO MENU - NAVBAR*/
+
+.navbar-inverse{
+    background:  rgba(12, 12, 12, 0.8);
+    max-width: 100%;
+}
+
+.navbar-nav{
+    margin-right: 90px;
+  
+}
+
+.brandLabel{
+        margin-left: 90px;
+       
+}
+
+
+
+/* SECCAO DE TITULOS E SUBTITULOS*/
+
+.icon-text ,h2 {
+    color: #2f3192;
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+.reservado ,h3{
+    color:rgba(12, 12, 12, 0.8);
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text ,p{
+    color:rgba(12, 12, 12, 0.8);
+    font-size: 1em;
+    font-weight: normal;
+}
+
+
+.card-block{
+    padding: 12px;
+
+}
+
+.parceiros ,h4{
+    color:rgba(102, 101, 101, 0.9);
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+h1 {
+    color: white;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-top: 50px;
+    line-height: 1.5;
+       
+}
+
+h2 {
+    color: rgba(102, 101, 101, 0.9);
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-top: 50px;
+    line-height: 1.5;
+    margin-left: 0px;
+       
+}
+
+.info ,h5 {
+    color: #0095da;
+  
+}
+
+p{
+    color: black;
+    line-height: 1.5;
+  
+}
+
+h6 {
+    color: rgba(102, 101, 101, 0.9);
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: bold;
+ 
+  }
+
+
+/* SECCAO IMGS - IMAGENS*/
+
+imgs {
+    max-width:100%;
+     width: 100%;
+  }
+
+
+
+
+/* SECCAO COMPOSITION - TIME*/
+
+
+.composition{
+
+    padding-top: 100px;
+    padding-bottom: 10px; 
+}
+
+.col-xs-6{
+    margin-left: 235px;  
+    margin-top: 30px;
+    margin-bottom: 10px; 
+
+}
+
+.thumbnail{ 
+    background: transparent;
+}
+
+
+/* SECCAO RESUMO - RESERV*/
+
+.reservado{
+    background: #e3e3e4 ;
+    height: 400px;
+    margin-top: 100px;
+
+ }
+
+ .col-sm-2{
+    margin-left: 70px;  
+    margin-top: 50px;
+    margin-bottom: 10px; 
+
+}
+
+.col-sm-7{ 
+    margin-top: 50px;
+    margin-bottom: 10px; 
+    margin-left: 180px;
+    
+}
+
+.col-sm-7 ,h2{ 
+    color:rgba(102, 101, 101, 0.9);
+    text-align: left;
+    font-size: 1.1em;
+    
+}
+
+.col-sm-7 ,p{ 
+    color:rgba(102, 101, 101, 0.9);
+    text-align: left;
+    font-size: 0.98em;
+    
+    
+}
+
+.logo{
+    width: 300px;
+  
+}
+
+
+/* SECCAO ACTIVIDADES */
+ 
+p.card-text{
+    text-align: justify;
+    color: Black;
+    margin:5px;
+    margin-left: 0px;
+    
+}
+ 
+
+.col-sm-3{
+        padding-top: 50px;
+        height: 400px;
+    
+        
+ }
+
+
+ /* SECCAO ACTIVIDADES - ver mais */
+
+ .col-xs-10{
+
+    margin-left: 0px;
+
+    
+}
+
+
+.col-xs-12{
+    /*background:yellow;*/
+    margin-top: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+ 
+  
+ 
+}
+
+/* SECCAO BOTOES */
+
+.btn {
+    background-color: #2f3192;
+    margin:10px;
+    margin:5px;
+    margin-left: 0px;
+    color: white;
+    text-align: center;
+}
+
+
+/* SECCAO PARCEIROS */
+
+.parceiros{
+    background: #e3e3e4 ;
+    padding-top: 20px;
+    margin-top: 70px;
+    height: 300px;
+}
+
+.parceiros-box {
+    float: left;
+    width: 14%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 68px;  
+    margin-top: 80px;
+    margin-bottom: 20px; 
+}
+
+
+
+
+
+/* SECCAO RODAPE - NEWSLETTERS */
+
+.rodape{
+    height: auto;
+    width: 100%;
+
+}
+
+.col-sm-5{
+    margin-left: 90px;
+    padding-top: 50px;
+    margin-top: -500px;
+
+}
+
+.col-sm-4{
+    margin-right: 90px;
+    padding-top: 50px;
+    margin-top: -500px;
+}
+
+
+.form-msn{
+    background-color: transparent;
+    border: 1px solid #e3e3e4;
+    color: white ;
+    font-family: sans-serif;
+    font-size:1.3em;  
+    text-align: left;
+}
+
+
+input{
+    background-color: black;
+ 
+}
+
+input[type="text"]
+{
+    background: transparent;
+    
+}
+
+input[type="email"]
+{
+    background: transparent;  
+}
+
+input[type="password"]
+{
+    background: transparent;  
+}
+
+/* SECCAO REDES SOCIAIS - RODAPE */
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+
+ /* SECCAO FOOTER - COPYRIGTH */ 
+
+footer {
+    height: 60px;
+    background-color: rgba(12, 12, 12, 1);
+    border-top: 0.7px solid #ddd; 
+}
+
+p.pull-left{
+    color:#8b8b8b;
+    padding-top: 20px;
+    margin-left: 100px;
+}
+
+
+
+/* PAGINA SOBRE NOS  */
+
+.site-about{
     width: 100%;
 }
 
-.wrap {
-    min-height: 100%;
-    height: auto;
-    margin: 0 auto -100px;
-    padding: 0 0 60px;
+
+.time{
+    
+    margin-top:15px;
+    padding-bottom:20px;
+    
 }
 
-.wrap > .container {
-    padding: 70px 15px 20px;
-}
-
-.composition{
-    align-content: center;
+.Text-time ,p{
+    margin-left: -10px;
 }
 
 
-.footer {
-    height: 60px;
-    background-color: #f5f5f5;
-    border-top: 1px solid #ddd;
-    padding-top: 20px;
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2f3192;;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #0095da;}
+
+ul.topnav li a.active {background-color:  #0095da}
+
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
 }
 
 
+.col-lg-4{
+   
+    margin: 0px;
+    height: 230px;
+   
+      
+}
+
+.col-md-8{
+
+    height: 230px;
+    
+   
+      
+}
+
+.col-xs-3{
+    /*background:yellow;*/
+    margin-top: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+
+ 
+  
+ 
+}
+
+
+.col-md-12{
+   /* background: red;*/
+    margin-top: 15px;
+    padding-bottom: 50px;
+    padding: 25px;
+  
+  
+ 
+}
+
+.col-md-8 ,p { 
+    text-align: justify;
+ }
+
+.col-md-8 ,h2 {
+    color: rgba(102, 101, 101, 0.9);
+    font-size: 1.1em;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-left: -10px;
+    margin-top: 13px;
+       
+}
+
+.col-md-4 ,p { 
+    text-align: justify;
+ 
+ }
+
+
+
+/* PAGINA CONTACTOS  */
+
+.col-sm-6{
+  /* background: magenta;*/
+   margin-top: -200px;
+ 
+    
+}
+
+.col-lg-5{
+    /*background: yellowgreen;*/
+    margin-top: -200px;
+ 
+ }
+
+
+
+/* PAGINA ACTIVIDADES */
+
+ .col-md-5{
+
+ 
+    margin-left: 0px;
+   
+ 
+ }
+
+
+
+
+
+
+
+
+/* PAGINA REGISTAR */
+
+.col-md-6{
+   /*  background: yellowgreen;*/
+    margin-left: 25%;
+    margin-bottom: 50px;
+    background-color: #e3e3e4;
+    border-radius: 8px;
+
+ 
+ }
+
+
+/* PAGINA  ORGAOS */
+
+
+.card-footer ,a {
+    text-align: center;
+}
+.card-body{
+    text-align: center;
+}
+
+
+
+/* SECCAO MENU RESPOSNSIVE  */
 
 /* add sorting icons to gridview sort links */
 a.asc:after, a.desc:after {
